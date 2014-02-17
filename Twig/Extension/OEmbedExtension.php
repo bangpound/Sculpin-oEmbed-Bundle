@@ -18,9 +18,9 @@ class OEmbedExtension extends \Twig_Extension
         );
     }
 
-    public function getOEmbed($params)
+    public function getOEmbed($url)
     {
-        $client = new OEmbed($params['url']);
+        $client = new OEmbed($url);
         $response = $client->getObject();
 
         return $response;
