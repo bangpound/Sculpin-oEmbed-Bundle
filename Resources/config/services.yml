@@ -1,0 +1,8 @@
+parameters:
+    bangpound_oembed.twig_extension.class: 'Bangpound\Sculpin\Bundle\OEmbedBundle\Twig\Extension\OEmbedExtension'
+
+services:
+    bangpound_oembed.twig_extension:
+        class: '%bangpound_oembed.twig_extension.class%'
+        tags:
+            - { name: twig.extension }

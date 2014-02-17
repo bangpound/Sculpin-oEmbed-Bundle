@@ -1,0 +1,20 @@
+{
+    "name": "bangpound/sculpin-oembed-bundle",
+    "description": "Sculpin oEmbed bundle",
+    "require": {
+        "excelwebzone/omlex": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benjamin Doherty",
+            "email": "bjd@bangpound.org"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Bangpound\\Sculpin\\Bundle\\OEmbedBundle\\": ""
+        }
+    },
+    "target-dir": "Bangpound/Sculpin/Bundle/OEmbedBundle"
+}
