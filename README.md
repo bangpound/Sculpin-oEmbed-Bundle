@@ -42,6 +42,6 @@ In a Twig template, use the oembed function with a URL argument.
 
 ## TODO
 
-* Use a different oEmbed library. `[excelwebzone/oemebd](https://github.com/excelwebzone/Omlex)` does not support
+* Use a different oEmbed library. [`excelwebzone/oemebd`](https://github.com/excelwebzone/Omlex) does not support
   oEmbed parameters.
 * Support caching.
