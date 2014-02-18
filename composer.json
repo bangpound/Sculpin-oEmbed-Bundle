@@ -2,7 +2,8 @@
     "name": "bangpound/sculpin-oembed-bundle",
     "description": "Sculpin oEmbed bundle",
     "require": {
-        "excelwebzone/omlex": "dev-master"
+        "guzzle/guzzle": "~3.7",
+        "doctrine/common": "~1.3"
     },
     "license": "MIT",
     "authors": [
