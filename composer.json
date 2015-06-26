@@ -2,7 +2,7 @@
     "name": "bangpound/sculpin-oembed-bundle",
     "description": "Sculpin oEmbed bundle",
     "require": {
-        "guzzle/guzzle": "~3.0",
+        "guzzlehttp/guzzle": "~6.0",
         "doctrine/cache": "~1.3"
     },
     "license": "MIT",
