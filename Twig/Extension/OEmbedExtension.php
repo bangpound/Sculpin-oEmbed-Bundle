@@ -6,7 +6,6 @@ use Doctrine\Common\Cache\FilesystemCache;
 use Guzzle\Cache\DoctrineCacheAdapter;
 use Guzzle\Http\Client;
 use Guzzle\Http\Exception\BadResponseException;
-use Guzzle\Http\Message\Request;
 use Guzzle\Http\Message\RequestInterface;
 use Guzzle\Http\QueryString;
 use Guzzle\Plugin\Cache\CachePlugin;
@@ -43,7 +42,7 @@ class OEmbedExtension extends \Twig_Extension
         $params['url'] = $url;
         $client = new Client();
 
-        $dir = $this->cache_dir .'/oembed';
+        $dir = $this->cache_dir.'/oembed';
         $plugin = new CachePlugin(
             array(
                 'storage' => new DefaultCacheStorage(
@@ -63,7 +62,7 @@ class OEmbedExtension extends \Twig_Extension
 
         try {
             $query = new QueryString($params);
-            $request = $client->get('http://api.embed.ly/1/oembed?'. $query);
+            $request = $client->get('http://api.embed.ly/1/oembed?'.$query);
             $request->getParams()->set('cache.override_ttl', 3600);
             $response = $request->send();
             $data = $response->json();
