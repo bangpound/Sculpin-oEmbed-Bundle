@@ -8,10 +8,8 @@ Add this bundle in your ```sculpin.json``` file:
 
 ```json
 {
-    // ...
     "require": {
-        // ...
-        "bangpound/sculpin-oembed-bundle": "@dev"
+        "bangpound/sculpin-oembed-bundle": "~1.0@dev"
     }
 }
 ```
