@@ -4,6 +4,5 @@ parameters:
 services:
     bangpound_oembed.twig_extension:
         class: '%bangpound_oembed.twig_extension.class%'
-        arguments: [ %kernel.cache_dir% ]
         tags:
             - { name: twig.extension }
