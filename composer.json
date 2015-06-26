@@ -13,9 +13,8 @@
         }
     ],
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Bangpound\\Sculpin\\Bundle\\OEmbedBundle\\": ""
         }
-    },
-    "target-dir": "Bangpound/Sculpin/Bundle/OEmbedBundle"
+    }
 }
